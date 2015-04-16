@@ -1,8 +1,3 @@
-/*!
- * Start Bootstrap - Landing Page Bootstrap Theme (http://startbootstrap.com)
- * Code licensed under the Apache License v2.0.
- * For details, see http://www.apache.org/licenses/LICENSE-2.0.
- */
 
 body,
 html {
@@ -19,6 +14,15 @@ h5,
 h6 {
     font-family: "Montserrat","Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 700;
+}
+
+#dklogo {
+    height: 95px;
+    width: 105px;
+    padding: 0px;
+    position: relative;
+    left: -3em;
+    top: -28px;
 }
 
 .topnav {
@@ -116,7 +120,7 @@ h6 {
 .banner {
     padding: 100px 0;
     color: #f8f8f8;
-    background: url(../img/brush.jpg) no-repeat center center;
+    /*background: url(../img/brush.jpg) no-repeat center center;*/
     background-size: cover;
 }
 
