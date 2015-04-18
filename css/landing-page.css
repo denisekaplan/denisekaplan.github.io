@@ -172,3 +172,27 @@ footer {
 p.copyright {
     margin: 15px 0 0;
 }
+
+#me {
+    margin-left: 290px;
+    margin-top: 75px;    
+    width: 50%;
+    height: 420px;
+    border:4px solid #525B76;
+}
+
+p {
+    margin: 36px;
+    margin-left: 137px;
+    margin-right: 164px;
+    text-align: -webkit-center;
+}
+
+.contact_icons a {
+  font-size: 6rem;
+  color:  #0BB6FF;
+}
+
+.contact_icons {
+  margin-top: 20%;
+}
