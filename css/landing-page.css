@@ -189,10 +189,23 @@ p {
 }
 
 .contact_icons a {
-  font-size: 6rem;
-  color:  #0BB6FF;
+    font-size: 15rem;
+    color:  #0BB6FF;
+    padding-left: 120px;
 }
 
 .contact_icons {
-  margin-top: 20%;
+    margin-top: 20%;
 }
+
+.section-heading {
+    text-align: center;
+}
+
+#mo {
+    width: 33%;
+    padding: 20px;
+    vertical-align: middle;
+}
+
+
