@@ -176,11 +176,11 @@ p.copyright {
 }
 /*about*/
 #me {
-    margin-left: 290px;
-    margin-top: 75px;    
-    width: 50%;
+    margin-left: 231px;
+    margin-top: 75px;
+    width: 40%;
     height: 420px;
-    border:4px solid #525B76;
+    border: 4px solid #525B76;
 }
 
 p {
