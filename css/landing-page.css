@@ -22,8 +22,12 @@ h6 {
     width: 85px;
     padding: 5px;
     position: relative;
-    left: -3em;
+    left: -19em;
     top: -28px;
+}
+
+#namelink {
+    margin-left: -292px;
 }
 
 .topnav {
