@@ -1,14 +1,4 @@
-/* Tablet Landscape */
-@media screen and (max-width: 1060px) {
-    #primary { width:67%; }
-    #secondary { width:30%; margin-left:3%;}  
-}
 
-/* Tabled Portrait */
-@media screen and (max-width: 768px) {
-    #primary { width:100%; }
-    #secondary { width:100%; margin:0; border:none; }
-}
 
 body,
 html {
@@ -191,18 +181,17 @@ p.copyright {
 }
 /*about*/
 #me {
-    margin-left: 103px;
-    margin-top: 75px;
-    width: 46%;
-    height: 420px;
+    margin-left: 4%;
+    margin-top: 25%;
+    width: 100%;
+    height: 100%;
     border: 4px solid #525B76;
 }
 
-p {
-    margin: 36px;
-    margin-left: 137px;
-    margin-right: 164px;
-    text-align: -webkit-center;
+.about p {
+    float: left;
+    margin-top: -20%;
+    margin-left: 35%;
 }
 
 
@@ -290,4 +279,8 @@ ul {
 img {
     width: 850px;
     margin-left: 215px; 
+}
+
+@media screen and (max-width: 1200px) {  
+
 }
