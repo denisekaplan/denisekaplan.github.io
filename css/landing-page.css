@@ -1,9 +1,30 @@
 
 
+#dknavbar {
+    background-color: #3a3431;
+}
+
+#dknavbar a {
+    color: #f8f8f8;
+
+}
+
+
+#wrap {
+  min-height: 100%;
+  height: auto !important;
+  height: 100%;
+  /* Negative indent footer by its height */
+  margin: 0 auto -60px;
+  /* Pad bottom by footer height */
+  padding: 0 0 60px;
+}
+
 body,
 html {
     width: 100%;
     height: 100%;
+    color: #3a3431;
 }
 
 body,
@@ -22,12 +43,13 @@ h6 {
     width: 85px;
     padding: 5px;
     position: relative;
-    left: -19em;
-    top: -28px;
+    left: -68%;
+    top: -132%;
+
 }
 
 #namelink {
-    margin-left: -292px;
+    margin-left: -51%;
 }
 
 .topnav {
@@ -144,36 +166,12 @@ h6 {
     margin-top: 15px;
 }
 
-@media(max-width:1199px) {
-    ul.banner-social-buttons {
-        float: left;
-        margin-top: 15px;
-    }
-}
-
-@media(max-width:767px) {
-    .banner h2 {
-        margin: 0;
-        text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
-        font-size: 3em;
-    }
-
-    ul.banner-social-buttons > li {
-        display: block;
-        margin-bottom: 20px;
-        padding: 0;
-    }
-
-    ul.banner-social-buttons > li:last-child {
-        margin-bottom: 0;
-    }
-}
-
 footer {
     padding: 15px 0;
-    background-color: #f8f8f8;
+    background-color: #3a3431;
     bottom: 0;
     width: 100%;
+    color: #f8f8f8;
 }
 
 p.copyright {
@@ -185,29 +183,30 @@ p.copyright {
     margin-top: 25%;
     width: 100%;
     height: 100%;
-    border: 4px solid #525B76;
+    border: 3px solid #3a3431;
 }
 
 .about p {
     float: left;
     margin-top: -20%;
-    margin-left: 35%;
+    margin-left: 40%;
+    margin-right: 10%;
 }
 
 
 /*contact*/
 .contact_icons a {
     font-size: 15rem;
-    color:  #0BB6FF;
+    color:  #3a3431;
     padding-left: 120px;
 }
 
 .contact_icons {
-    margin-top: 20%;
+    margin-top: 9%;
+    margin-left: -10%;
 }
 
 .section-heading {
-    text-align: center;
     padding-top: 10px;
 }
 
@@ -262,6 +261,7 @@ ul {
 
 .writelinks {
     font-size: 45px;
+    color: #3a3431;
 }
 
 .btnResume {
@@ -282,5 +282,41 @@ img {
 }
 
 @media screen and (max-width: 1200px) {  
+    .about p {
+        margin: 8%;
+    }
 
+    #dklogo {
+        margin: -2% 50%;    
+    }
+}
+
+@media(max-width:1199px) {
+    ul.banner-social-buttons {
+        float: left;
+        margin-top: 15px;
+    }
+
+    #getmofit {
+        margin: 0;
+    
+    }
+}
+
+@media(max-width:767px) {
+    .banner h2 {
+        margin: 0;
+        text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
+        font-size: 3em;
+    }
+
+    ul.banner-social-buttons > li {
+        display: block;
+        margin-bottom: 20px;
+        padding: 0;
+    }
+
+    ul.banner-social-buttons > li:last-child {
+        margin-bottom: 0;
+    }
 }
